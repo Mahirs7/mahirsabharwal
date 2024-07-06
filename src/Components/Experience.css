@@ -1,0 +1,86 @@
+.main-experience {
+    background-color: #0a192f;
+    color: white;
+    padding: 2rem 0;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.experience-title {
+    position: sticky;
+    top: 10px;
+    background-color: #0a192f;
+    padding: 1rem 0;
+    z-index: 100;
+}
+
+.experience-grid {
+    margin-top: 2rem;
+    height: calc(100% - 4rem);
+}
+
+.timeline-container {
+    position: sticky;
+    top: 100px;
+    align-self: flex-start;
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+    padding-right: 1rem;
+}
+
+.timeline {
+    cursor: pointer;
+}
+
+.timeline-item:hover,
+.timeline-item-selected {
+    cursor: pointer;
+    color: #64ffda;
+    background-color: rgba(100, 255, 218, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.timeline-company {
+    font-size: 1.2rem;
+}
+
+.timeline .MuiTypography-body2 {
+    font-size: 1.1rem;
+    color: #64ffda;
+}
+
+.summary-container {
+    padding-left: 1rem;
+}
+
+.experience-summary {
+    padding: 2rem;
+    color: white;
+}
+
+.experience-summary ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experience-summary li {
+    margin-bottom: 1rem;
+}
+
+.experience-summary li .MuiTypography-body1 {
+    font-size: 1.1rem;
+}
+
+.experience-summary li:hover {
+    color: #64ffda;
+}
+
+.experience-summary li:active {
+    color: #64ffda;
+}
+
+.experience-summary li:before {
+    color: #64ffda;
+    padding-right: 0.5rem;
+}

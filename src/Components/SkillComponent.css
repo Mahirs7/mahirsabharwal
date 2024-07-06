@@ -1,0 +1,12 @@
+.skill-bubble {
+    display: inline-block;
+    background-color: #1f2937;
+    /* Adjust color as needed */
+    color: #00f3ff;
+    /* Adjust text color as needed */
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1.25rem;
+    margin: 5px;
+    text-align: center;
+}
